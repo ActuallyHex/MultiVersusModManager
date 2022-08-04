@@ -195,6 +195,10 @@ namespace BunifulInstall.Forms
         private void Settings_Load(object sender, EventArgs e)
         {
             txtDirectory.Text = MultiVersusModManager.Properties.Settings.Default.modPath;
+
+            chkTaskbar.Checked = MultiVersusModManager.Properties.Settings.Default.ShowInTaskbar;
+            chkOnTop.Checked = MultiVersusModManager.Properties.Settings.Default.AlwaysOnTop;
+            chkCloseGame.Checked = MultiVersusModManager.Properties.Settings.Default.GameAutoClose;
         }
 
         private void btnAutoLaunchPath_Click(object sender, EventArgs e)
@@ -208,13 +212,49 @@ namespace BunifulInstall.Forms
                 MultiVersusModManager.Properties.Settings.Default.launchPath = dialog.FileName;
                 MultiVersusModManager.Properties.Settings.Default.Save();
 
-                // G:\SteamLibrary\steamapps\common\MultiVersus\MultiVersus\Binaries\Win64\MultiVersus-Win64-Shipping.exe -- auto launch shit
-
             }
         }
 
-        //C:\Program Files\Steam\steamapps\common\MultiVersus
-        //D:\SteamLibrary\steamapps\common\MultiVersus
-        //G:\SteamLibrary\steamapps\common\MultiVersus
+        private void chkTaskbar_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuCheckBox.CheckedChangedEventArgs e)
+        {
+            if (chkTaskbar.Checked == true)
+            {
+                MultiVersusModManager.Properties.Settings.Default.ShowInTaskbar = true;
+                MultiVersusModManager.Properties.Settings.Default.Save();
+            }
+            else
+            {
+                MultiVersusModManager.Properties.Settings.Default.ShowInTaskbar = false;
+                MultiVersusModManager.Properties.Settings.Default.Save();
+            }
+        }
+
+        private void chkOnTop_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuCheckBox.CheckedChangedEventArgs e)
+        {
+            if (chkOnTop.Checked == true)
+            {
+                MultiVersusModManager.Properties.Settings.Default.AlwaysOnTop = true;
+                MultiVersusModManager.Properties.Settings.Default.Save();
+            }
+            else
+            {
+                MultiVersusModManager.Properties.Settings.Default.AlwaysOnTop = false;
+                MultiVersusModManager.Properties.Settings.Default.Save();
+            }
+        }
+
+        private void chkCloseGame_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuCheckBox.CheckedChangedEventArgs e)
+        {
+            if (chkCloseGame.Checked == true)
+            {
+                MultiVersusModManager.Properties.Settings.Default.GameAutoClose = true;
+                MultiVersusModManager.Properties.Settings.Default.Save();
+            }
+            else
+            {
+                MultiVersusModManager.Properties.Settings.Default.GameAutoClose = false;
+                MultiVersusModManager.Properties.Settings.Default.Save();
+            }
+        }
     }
 }

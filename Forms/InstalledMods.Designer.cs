@@ -42,6 +42,7 @@ namespace BunifulInstall.Forms
             // 
             // lstMods
             // 
+            this.lstMods.AllowDrop = true;
             this.lstMods.BackColor = System.Drawing.Color.Black;
             this.lstMods.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lstMods.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -57,6 +58,8 @@ namespace BunifulInstall.Forms
             this.lstMods.Size = new System.Drawing.Size(712, 300);
             this.lstMods.Sorted = true;
             this.lstMods.TabIndex = 0;
+            this.lstMods.DragDrop += new System.Windows.Forms.DragEventHandler(this.lstMods_DragDrop);
+            this.lstMods.DragEnter += new System.Windows.Forms.DragEventHandler(this.lstMods_DragEnter);
             // 
             // bunifuLabel1
             // 
@@ -89,7 +92,7 @@ namespace BunifulInstall.Forms
             this.btnRefreshList.BackColor1 = System.Drawing.Color.Transparent;
             this.btnRefreshList.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRefreshList.BackgroundImage")));
             this.btnRefreshList.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnRefreshList.ButtonText = "Refresh Mod List";
+            this.btnRefreshList.ButtonText = " Refresh Mod List";
             this.btnRefreshList.ButtonTextMarginLeft = 0;
             this.btnRefreshList.ColorContrastOnClick = 45;
             this.btnRefreshList.ColorContrastOnHover = 45;
@@ -122,7 +125,7 @@ namespace BunifulInstall.Forms
             this.btnRefreshList.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("btnRefreshList.IdleIconLeftImage")));
             this.btnRefreshList.IdleIconRightImage = null;
             this.btnRefreshList.IndicateFocus = false;
-            this.btnRefreshList.Location = new System.Drawing.Point(24, 336);
+            this.btnRefreshList.Location = new System.Drawing.Point(24, 426);
             this.btnRefreshList.Name = "btnRefreshList";
             this.btnRefreshList.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnRefreshList.OnDisabledState.BorderRadius = 1;
@@ -179,7 +182,7 @@ namespace BunifulInstall.Forms
             this.btnDisable.BackColor1 = System.Drawing.Color.Transparent;
             this.btnDisable.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDisable.BackgroundImage")));
             this.btnDisable.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnDisable.ButtonText = "          Disable Selected Mods";
+            this.btnDisable.ButtonText = "           Disable Selected Mods";
             this.btnDisable.ButtonTextMarginLeft = 0;
             this.btnDisable.ColorContrastOnClick = 45;
             this.btnDisable.ColorContrastOnHover = 45;
@@ -212,7 +215,7 @@ namespace BunifulInstall.Forms
             this.btnDisable.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("btnDisable.IdleIconLeftImage")));
             this.btnDisable.IdleIconRightImage = null;
             this.btnDisable.IndicateFocus = false;
-            this.btnDisable.Location = new System.Drawing.Point(24, 426);
+            this.btnDisable.Location = new System.Drawing.Point(24, 381);
             this.btnDisable.Name = "btnDisable";
             this.btnDisable.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnDisable.OnDisabledState.BorderRadius = 1;
@@ -302,7 +305,7 @@ namespace BunifulInstall.Forms
             this.btnEnable.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("btnEnable.IdleIconLeftImage")));
             this.btnEnable.IdleIconRightImage = null;
             this.btnEnable.IndicateFocus = false;
-            this.btnEnable.Location = new System.Drawing.Point(24, 381);
+            this.btnEnable.Location = new System.Drawing.Point(24, 336);
             this.btnEnable.Name = "btnEnable";
             this.btnEnable.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnEnable.OnDisabledState.BorderRadius = 1;
@@ -347,6 +350,7 @@ namespace BunifulInstall.Forms
             // 
             // InstalledMods
             // 
+            this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;

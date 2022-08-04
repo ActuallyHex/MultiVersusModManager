@@ -33,7 +33,6 @@ namespace BunifulInstall
             installedMods1.Visible = false;
             installedMods2.Visible = true;
             settings1.Visible = false;
-            browseMods1.Visible = false;
         }
 
         private void btnSettings_Click(object sender, EventArgs e)
@@ -41,7 +40,6 @@ namespace BunifulInstall
             installedMods1.Visible = false;
             installedMods2.Visible = false;
             settings1.Visible = true;
-            browseMods1.Visible = false;
         }
 
         private void btnLaunch_Click(object sender, EventArgs e)
@@ -49,7 +47,12 @@ namespace BunifulInstall
             try
             {
                 Process.Start(MultiVersusModManager.Properties.Settings.Default.launchPath); // should start with EAC and then close the application
-                Environment.Exit(0);
+
+                if (MultiVersusModManager.Properties.Settings.Default.GameAutoClose == true)
+                {
+                    Environment.Exit(0);
+                }
+
             }
             catch
             {
@@ -63,7 +66,14 @@ namespace BunifulInstall
             installedMods1.Visible = false;
             installedMods2.Visible = false;
             settings1.Visible = false;
-            browseMods1.Visible = true;
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+           this.TopMost = MultiVersusModManager.Properties.Settings.Default.AlwaysOnTop;
+           this.ShowInTaskbar = MultiVersusModManager.Properties.Settings.Default.ShowInTaskbar;
 
         }
     }

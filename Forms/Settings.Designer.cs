@@ -30,13 +30,13 @@ namespace BunifulInstall.Forms
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Settings));
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.txtDirectory = new Bunifu.UI.WinForms.BunifuTextBox();
             this.btnAutoMakeFolder = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.fileChooser = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
@@ -45,6 +45,14 @@ namespace BunifulInstall.Forms
             this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
             this.btnAutoLaunchPath = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.bunifuLabel4 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel5 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel6 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.chkTaskbar = new Bunifu.UI.WinForms.BunifuCheckBox();
+            this.chkOnTop = new Bunifu.UI.WinForms.BunifuCheckBox();
+            this.bunifuLabel7 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.chkCloseGame = new Bunifu.UI.WinForms.BunifuCheckBox();
+            this.bunifuLabel8 = new Bunifu.UI.WinForms.BunifuLabel();
             this.SuspendLayout();
             // 
             // txtDirectory
@@ -81,26 +89,26 @@ namespace BunifulInstall.Forms
             this.txtDirectory.Modified = false;
             this.txtDirectory.Multiline = false;
             this.txtDirectory.Name = "txtDirectory";
-            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties1.FillColor = System.Drawing.Color.Empty;
-            stateProperties1.ForeColor = System.Drawing.Color.Empty;
-            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtDirectory.OnActiveState = stateProperties1;
-            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txtDirectory.OnDisabledState = stateProperties2;
-            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties3.FillColor = System.Drawing.Color.Empty;
-            stateProperties3.ForeColor = System.Drawing.Color.Empty;
-            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtDirectory.OnHoverState = stateProperties3;
-            stateProperties4.BorderColor = System.Drawing.Color.Black;
-            stateProperties4.FillColor = System.Drawing.Color.Black;
-            stateProperties4.ForeColor = System.Drawing.Color.White;
-            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtDirectory.OnIdleState = stateProperties4;
+            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties5.FillColor = System.Drawing.Color.Empty;
+            stateProperties5.ForeColor = System.Drawing.Color.Empty;
+            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtDirectory.OnActiveState = stateProperties5;
+            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txtDirectory.OnDisabledState = stateProperties6;
+            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties7.FillColor = System.Drawing.Color.Empty;
+            stateProperties7.ForeColor = System.Drawing.Color.Empty;
+            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtDirectory.OnHoverState = stateProperties7;
+            stateProperties8.BorderColor = System.Drawing.Color.Black;
+            stateProperties8.FillColor = System.Drawing.Color.Black;
+            stateProperties8.ForeColor = System.Drawing.Color.White;
+            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtDirectory.OnIdleState = stateProperties8;
             this.txtDirectory.Padding = new System.Windows.Forms.Padding(3);
             this.txtDirectory.PasswordChar = '\0';
             this.txtDirectory.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -141,11 +149,11 @@ namespace BunifulInstall.Forms
             this.btnAutoMakeFolder.ColorContrastOnClick = 45;
             this.btnAutoMakeFolder.ColorContrastOnHover = 45;
             this.btnAutoMakeFolder.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges1.BottomLeft = true;
-            borderEdges1.BottomRight = true;
-            borderEdges1.TopLeft = true;
-            borderEdges1.TopRight = true;
-            this.btnAutoMakeFolder.CustomizableEdges = borderEdges1;
+            borderEdges4.BottomLeft = true;
+            borderEdges4.BottomRight = true;
+            borderEdges4.TopLeft = true;
+            borderEdges4.TopRight = true;
+            this.btnAutoMakeFolder.CustomizableEdges = borderEdges4;
             this.btnAutoMakeFolder.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnAutoMakeFolder.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnAutoMakeFolder.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -231,11 +239,11 @@ namespace BunifulInstall.Forms
             this.fileChooser.ColorContrastOnClick = 45;
             this.fileChooser.ColorContrastOnHover = 45;
             this.fileChooser.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges2.BottomLeft = true;
-            borderEdges2.BottomRight = true;
-            borderEdges2.TopLeft = true;
-            borderEdges2.TopRight = true;
-            this.fileChooser.CustomizableEdges = borderEdges2;
+            borderEdges5.BottomLeft = true;
+            borderEdges5.BottomRight = true;
+            borderEdges5.TopLeft = true;
+            borderEdges5.TopRight = true;
+            this.fileChooser.CustomizableEdges = borderEdges5;
             this.fileChooser.DialogResult = System.Windows.Forms.DialogResult.None;
             this.fileChooser.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.fileChooser.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -283,7 +291,7 @@ namespace BunifulInstall.Forms
             this.fileChooser.OnIdleState.BorderThickness = 1;
             this.fileChooser.OnIdleState.FillColor = System.Drawing.Color.Transparent;
             this.fileChooser.OnIdleState.ForeColor = System.Drawing.Color.White;
-            this.fileChooser.OnIdleState.IconLeftImage = ((System.Drawing.Image)(resources.GetObject("bunifuButton1.OnIdleState.IconLeftImage")));
+            this.fileChooser.OnIdleState.IconLeftImage = ((System.Drawing.Image)(resources.GetObject("fileChooser.OnIdleState.IconLeftImage")));
             this.fileChooser.OnIdleState.IconRightImage = null;
             this.fileChooser.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
             this.fileChooser.OnPressedState.BorderRadius = 1;
@@ -372,11 +380,11 @@ namespace BunifulInstall.Forms
             this.btnAutoLaunchPath.ColorContrastOnClick = 45;
             this.btnAutoLaunchPath.ColorContrastOnHover = 45;
             this.btnAutoLaunchPath.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges3.BottomLeft = true;
-            borderEdges3.BottomRight = true;
-            borderEdges3.TopLeft = true;
-            borderEdges3.TopRight = true;
-            this.btnAutoLaunchPath.CustomizableEdges = borderEdges3;
+            borderEdges6.BottomLeft = true;
+            borderEdges6.BottomRight = true;
+            borderEdges6.TopLeft = true;
+            borderEdges6.TopRight = true;
+            this.btnAutoLaunchPath.CustomizableEdges = borderEdges6;
             this.btnAutoLaunchPath.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnAutoLaunchPath.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnAutoLaunchPath.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -424,7 +432,7 @@ namespace BunifulInstall.Forms
             this.btnAutoLaunchPath.OnIdleState.BorderThickness = 1;
             this.btnAutoLaunchPath.OnIdleState.FillColor = System.Drawing.Color.Transparent;
             this.btnAutoLaunchPath.OnIdleState.ForeColor = System.Drawing.Color.White;
-            this.btnAutoLaunchPath.OnIdleState.IconLeftImage = ((System.Drawing.Image)(resources.GetObject("bunifuButton1.OnIdleState.IconLeftImage1")));
+            this.btnAutoLaunchPath.OnIdleState.IconLeftImage = ((System.Drawing.Image)(resources.GetObject("btnAutoLaunchPath.OnIdleState.IconLeftImage")));
             this.btnAutoLaunchPath.OnIdleState.IconRightImage = null;
             this.btnAutoLaunchPath.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
             this.btnAutoLaunchPath.OnPressedState.BorderRadius = 1;
@@ -443,11 +451,266 @@ namespace BunifulInstall.Forms
             this.btnAutoLaunchPath.UseDefaultRadiusAndThickness = true;
             this.btnAutoLaunchPath.Click += new System.EventHandler(this.btnAutoLaunchPath_Click);
             // 
+            // bunifuLabel4
+            // 
+            this.bunifuLabel4.AllowParentOverrides = false;
+            this.bunifuLabel4.AutoEllipsis = false;
+            this.bunifuLabel4.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel4.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel4.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel4.Location = new System.Drawing.Point(758, 613);
+            this.bunifuLabel4.Name = "bunifuLabel4";
+            this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel4.Size = new System.Drawing.Size(62, 25);
+            this.bunifuLabel4.TabIndex = 10;
+            this.bunifuLabel4.Text = "Ver. 1.2";
+            this.bunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel4.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel5
+            // 
+            this.bunifuLabel5.AllowParentOverrides = false;
+            this.bunifuLabel5.AutoEllipsis = false;
+            this.bunifuLabel5.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel5.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel5.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel5.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel5.Location = new System.Drawing.Point(13, 303);
+            this.bunifuLabel5.Name = "bunifuLabel5";
+            this.bunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel5.Size = new System.Drawing.Size(106, 25);
+            this.bunifuLabel5.TabIndex = 11;
+            this.bunifuLabel5.Text = "App Settings";
+            this.bunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel5.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel6
+            // 
+            this.bunifuLabel6.AllowParentOverrides = false;
+            this.bunifuLabel6.AutoEllipsis = false;
+            this.bunifuLabel6.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel6.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel6.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel6.Location = new System.Drawing.Point(39, 363);
+            this.bunifuLabel6.Name = "bunifuLabel6";
+            this.bunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel6.Size = new System.Drawing.Size(87, 17);
+            this.bunifuLabel6.TabIndex = 13;
+            this.bunifuLabel6.Text = "Always On Top";
+            this.bunifuLabel6.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel6.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // chkTaskbar
+            // 
+            this.chkTaskbar.AllowBindingControlAnimation = false;
+            this.chkTaskbar.AllowBindingControlColorChanges = false;
+            this.chkTaskbar.AllowBindingControlLocation = false;
+            this.chkTaskbar.AllowCheckBoxAnimation = false;
+            this.chkTaskbar.AllowCheckmarkAnimation = false;
+            this.chkTaskbar.AllowOnHoverStates = true;
+            this.chkTaskbar.AutoCheck = true;
+            this.chkTaskbar.BackColor = System.Drawing.Color.Transparent;
+            this.chkTaskbar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("chkTaskbar.BackgroundImage")));
+            this.chkTaskbar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.chkTaskbar.BindingControlPosition = Bunifu.UI.WinForms.BunifuCheckBox.BindingControlPositions.Right;
+            this.chkTaskbar.BorderRadius = 0;
+            this.chkTaskbar.Checked = true;
+            this.chkTaskbar.CheckState = Bunifu.UI.WinForms.BunifuCheckBox.CheckStates.Checked;
+            this.chkTaskbar.Cursor = System.Windows.Forms.Cursors.Default;
+            this.chkTaskbar.CustomCheckmarkImage = null;
+            this.chkTaskbar.Location = new System.Drawing.Point(13, 334);
+            this.chkTaskbar.MinimumSize = new System.Drawing.Size(17, 17);
+            this.chkTaskbar.Name = "chkTaskbar";
+            this.chkTaskbar.OnCheck.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.chkTaskbar.OnCheck.BorderRadius = 12;
+            this.chkTaskbar.OnCheck.BorderThickness = 2;
+            this.chkTaskbar.OnCheck.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.chkTaskbar.OnCheck.CheckmarkColor = System.Drawing.Color.White;
+            this.chkTaskbar.OnCheck.CheckmarkThickness = 2;
+            this.chkTaskbar.OnDisable.BorderColor = System.Drawing.Color.LightGray;
+            this.chkTaskbar.OnDisable.BorderRadius = 12;
+            this.chkTaskbar.OnDisable.BorderThickness = 2;
+            this.chkTaskbar.OnDisable.CheckBoxColor = System.Drawing.Color.Transparent;
+            this.chkTaskbar.OnDisable.CheckmarkColor = System.Drawing.Color.LightGray;
+            this.chkTaskbar.OnDisable.CheckmarkThickness = 2;
+            this.chkTaskbar.OnHoverChecked.BorderColor = System.Drawing.Color.White;
+            this.chkTaskbar.OnHoverChecked.BorderRadius = 12;
+            this.chkTaskbar.OnHoverChecked.BorderThickness = 2;
+            this.chkTaskbar.OnHoverChecked.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.chkTaskbar.OnHoverChecked.CheckmarkColor = System.Drawing.Color.White;
+            this.chkTaskbar.OnHoverChecked.CheckmarkThickness = 2;
+            this.chkTaskbar.OnHoverUnchecked.BorderColor = System.Drawing.Color.White;
+            this.chkTaskbar.OnHoverUnchecked.BorderRadius = 12;
+            this.chkTaskbar.OnHoverUnchecked.BorderThickness = 1;
+            this.chkTaskbar.OnHoverUnchecked.CheckBoxColor = System.Drawing.Color.Transparent;
+            this.chkTaskbar.OnUncheck.BorderColor = System.Drawing.Color.DarkGray;
+            this.chkTaskbar.OnUncheck.BorderRadius = 12;
+            this.chkTaskbar.OnUncheck.BorderThickness = 1;
+            this.chkTaskbar.OnUncheck.CheckBoxColor = System.Drawing.Color.Transparent;
+            this.chkTaskbar.Size = new System.Drawing.Size(20, 20);
+            this.chkTaskbar.Style = Bunifu.UI.WinForms.BunifuCheckBox.CheckBoxStyles.Bunifu;
+            this.chkTaskbar.TabIndex = 14;
+            this.chkTaskbar.ThreeState = false;
+            this.chkTaskbar.ToolTipText = null;
+            this.chkTaskbar.CheckedChanged += new System.EventHandler<Bunifu.UI.WinForms.BunifuCheckBox.CheckedChangedEventArgs>(this.chkTaskbar_CheckedChanged);
+            // 
+            // chkOnTop
+            // 
+            this.chkOnTop.AllowBindingControlAnimation = false;
+            this.chkOnTop.AllowBindingControlColorChanges = false;
+            this.chkOnTop.AllowBindingControlLocation = false;
+            this.chkOnTop.AllowCheckBoxAnimation = false;
+            this.chkOnTop.AllowCheckmarkAnimation = false;
+            this.chkOnTop.AllowOnHoverStates = true;
+            this.chkOnTop.AutoCheck = true;
+            this.chkOnTop.BackColor = System.Drawing.Color.Transparent;
+            this.chkOnTop.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("chkOnTop.BackgroundImage")));
+            this.chkOnTop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.chkOnTop.BindingControlPosition = Bunifu.UI.WinForms.BunifuCheckBox.BindingControlPositions.Right;
+            this.chkOnTop.BorderRadius = 0;
+            this.chkOnTop.Checked = false;
+            this.chkOnTop.CheckState = Bunifu.UI.WinForms.BunifuCheckBox.CheckStates.Unchecked;
+            this.chkOnTop.Cursor = System.Windows.Forms.Cursors.Default;
+            this.chkOnTop.CustomCheckmarkImage = null;
+            this.chkOnTop.Location = new System.Drawing.Point(13, 360);
+            this.chkOnTop.MinimumSize = new System.Drawing.Size(17, 17);
+            this.chkOnTop.Name = "chkOnTop";
+            this.chkOnTop.OnCheck.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.chkOnTop.OnCheck.BorderRadius = 12;
+            this.chkOnTop.OnCheck.BorderThickness = 2;
+            this.chkOnTop.OnCheck.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.chkOnTop.OnCheck.CheckmarkColor = System.Drawing.Color.White;
+            this.chkOnTop.OnCheck.CheckmarkThickness = 2;
+            this.chkOnTop.OnDisable.BorderColor = System.Drawing.Color.LightGray;
+            this.chkOnTop.OnDisable.BorderRadius = 12;
+            this.chkOnTop.OnDisable.BorderThickness = 2;
+            this.chkOnTop.OnDisable.CheckBoxColor = System.Drawing.Color.Transparent;
+            this.chkOnTop.OnDisable.CheckmarkColor = System.Drawing.Color.LightGray;
+            this.chkOnTop.OnDisable.CheckmarkThickness = 2;
+            this.chkOnTop.OnHoverChecked.BorderColor = System.Drawing.Color.White;
+            this.chkOnTop.OnHoverChecked.BorderRadius = 12;
+            this.chkOnTop.OnHoverChecked.BorderThickness = 2;
+            this.chkOnTop.OnHoverChecked.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.chkOnTop.OnHoverChecked.CheckmarkColor = System.Drawing.Color.White;
+            this.chkOnTop.OnHoverChecked.CheckmarkThickness = 2;
+            this.chkOnTop.OnHoverUnchecked.BorderColor = System.Drawing.Color.White;
+            this.chkOnTop.OnHoverUnchecked.BorderRadius = 12;
+            this.chkOnTop.OnHoverUnchecked.BorderThickness = 1;
+            this.chkOnTop.OnHoverUnchecked.CheckBoxColor = System.Drawing.Color.Transparent;
+            this.chkOnTop.OnUncheck.BorderColor = System.Drawing.Color.DarkGray;
+            this.chkOnTop.OnUncheck.BorderRadius = 12;
+            this.chkOnTop.OnUncheck.BorderThickness = 1;
+            this.chkOnTop.OnUncheck.CheckBoxColor = System.Drawing.Color.Transparent;
+            this.chkOnTop.Size = new System.Drawing.Size(20, 20);
+            this.chkOnTop.Style = Bunifu.UI.WinForms.BunifuCheckBox.CheckBoxStyles.Bunifu;
+            this.chkOnTop.TabIndex = 16;
+            this.chkOnTop.ThreeState = false;
+            this.chkOnTop.ToolTipText = null;
+            this.chkOnTop.CheckedChanged += new System.EventHandler<Bunifu.UI.WinForms.BunifuCheckBox.CheckedChangedEventArgs>(this.chkOnTop_CheckedChanged);
+            // 
+            // bunifuLabel7
+            // 
+            this.bunifuLabel7.AllowParentOverrides = false;
+            this.bunifuLabel7.AutoEllipsis = false;
+            this.bunifuLabel7.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel7.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel7.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel7.Location = new System.Drawing.Point(39, 337);
+            this.bunifuLabel7.Name = "bunifuLabel7";
+            this.bunifuLabel7.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel7.Size = new System.Drawing.Size(95, 17);
+            this.bunifuLabel7.TabIndex = 15;
+            this.bunifuLabel7.Text = "Show In Taskbar";
+            this.bunifuLabel7.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel7.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // chkCloseGame
+            // 
+            this.chkCloseGame.AllowBindingControlAnimation = false;
+            this.chkCloseGame.AllowBindingControlColorChanges = false;
+            this.chkCloseGame.AllowBindingControlLocation = false;
+            this.chkCloseGame.AllowCheckBoxAnimation = false;
+            this.chkCloseGame.AllowCheckmarkAnimation = false;
+            this.chkCloseGame.AllowOnHoverStates = true;
+            this.chkCloseGame.AutoCheck = true;
+            this.chkCloseGame.BackColor = System.Drawing.Color.Transparent;
+            this.chkCloseGame.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("chkCloseGame.BackgroundImage")));
+            this.chkCloseGame.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.chkCloseGame.BindingControlPosition = Bunifu.UI.WinForms.BunifuCheckBox.BindingControlPositions.Right;
+            this.chkCloseGame.BorderRadius = 0;
+            this.chkCloseGame.Checked = false;
+            this.chkCloseGame.CheckState = Bunifu.UI.WinForms.BunifuCheckBox.CheckStates.Unchecked;
+            this.chkCloseGame.Cursor = System.Windows.Forms.Cursors.Default;
+            this.chkCloseGame.CustomCheckmarkImage = null;
+            this.chkCloseGame.Location = new System.Drawing.Point(13, 386);
+            this.chkCloseGame.MinimumSize = new System.Drawing.Size(17, 17);
+            this.chkCloseGame.Name = "chkCloseGame";
+            this.chkCloseGame.OnCheck.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.chkCloseGame.OnCheck.BorderRadius = 12;
+            this.chkCloseGame.OnCheck.BorderThickness = 2;
+            this.chkCloseGame.OnCheck.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.chkCloseGame.OnCheck.CheckmarkColor = System.Drawing.Color.White;
+            this.chkCloseGame.OnCheck.CheckmarkThickness = 2;
+            this.chkCloseGame.OnDisable.BorderColor = System.Drawing.Color.LightGray;
+            this.chkCloseGame.OnDisable.BorderRadius = 12;
+            this.chkCloseGame.OnDisable.BorderThickness = 2;
+            this.chkCloseGame.OnDisable.CheckBoxColor = System.Drawing.Color.Transparent;
+            this.chkCloseGame.OnDisable.CheckmarkColor = System.Drawing.Color.LightGray;
+            this.chkCloseGame.OnDisable.CheckmarkThickness = 2;
+            this.chkCloseGame.OnHoverChecked.BorderColor = System.Drawing.Color.White;
+            this.chkCloseGame.OnHoverChecked.BorderRadius = 12;
+            this.chkCloseGame.OnHoverChecked.BorderThickness = 2;
+            this.chkCloseGame.OnHoverChecked.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.chkCloseGame.OnHoverChecked.CheckmarkColor = System.Drawing.Color.White;
+            this.chkCloseGame.OnHoverChecked.CheckmarkThickness = 2;
+            this.chkCloseGame.OnHoverUnchecked.BorderColor = System.Drawing.Color.White;
+            this.chkCloseGame.OnHoverUnchecked.BorderRadius = 12;
+            this.chkCloseGame.OnHoverUnchecked.BorderThickness = 1;
+            this.chkCloseGame.OnHoverUnchecked.CheckBoxColor = System.Drawing.Color.Transparent;
+            this.chkCloseGame.OnUncheck.BorderColor = System.Drawing.Color.DarkGray;
+            this.chkCloseGame.OnUncheck.BorderRadius = 12;
+            this.chkCloseGame.OnUncheck.BorderThickness = 1;
+            this.chkCloseGame.OnUncheck.CheckBoxColor = System.Drawing.Color.Transparent;
+            this.chkCloseGame.Size = new System.Drawing.Size(20, 20);
+            this.chkCloseGame.Style = Bunifu.UI.WinForms.BunifuCheckBox.CheckBoxStyles.Bunifu;
+            this.chkCloseGame.TabIndex = 17;
+            this.chkCloseGame.ThreeState = false;
+            this.chkCloseGame.ToolTipText = null;
+            this.chkCloseGame.CheckedChanged += new System.EventHandler<Bunifu.UI.WinForms.BunifuCheckBox.CheckedChangedEventArgs>(this.chkCloseGame_CheckedChanged);
+            // 
+            // bunifuLabel8
+            // 
+            this.bunifuLabel8.AllowParentOverrides = false;
+            this.bunifuLabel8.AutoEllipsis = false;
+            this.bunifuLabel8.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel8.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel8.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel8.Location = new System.Drawing.Point(39, 389);
+            this.bunifuLabel8.Name = "bunifuLabel8";
+            this.bunifuLabel8.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel8.Size = new System.Drawing.Size(163, 17);
+            this.bunifuLabel8.TabIndex = 18;
+            this.bunifuLabel8.Text = "Close App On Game Launch";
+            this.bunifuLabel8.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel8.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
             // Settings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
+            this.Controls.Add(this.bunifuLabel8);
+            this.Controls.Add(this.chkCloseGame);
+            this.Controls.Add(this.chkOnTop);
+            this.Controls.Add(this.bunifuLabel7);
+            this.Controls.Add(this.chkTaskbar);
+            this.Controls.Add(this.bunifuLabel6);
+            this.Controls.Add(this.bunifuLabel5);
+            this.Controls.Add(this.bunifuLabel4);
             this.Controls.Add(this.btnAutoLaunchPath);
             this.Controls.Add(this.bunifuLabel3);
             this.Controls.Add(this.bunifuLabel2);
@@ -473,5 +736,13 @@ namespace BunifulInstall.Forms
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel3;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnAutoLaunchPath;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel4;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel5;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel6;
+        private Bunifu.UI.WinForms.BunifuCheckBox chkTaskbar;
+        private Bunifu.UI.WinForms.BunifuCheckBox chkOnTop;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel7;
+        private Bunifu.UI.WinForms.BunifuCheckBox chkCloseGame;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel8;
     }
 }

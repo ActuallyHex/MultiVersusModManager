@@ -153,7 +153,6 @@ C:\Users\parke\Desktop\2022 VS Projects\BunifulInstall\bin\Debug\Microsoft.Windo
 C:\Users\parke\Desktop\2022 VS Projects\BunifulInstall\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
 C:\Users\parke\Desktop\2022 VS Projects\BunifulInstall\bin\Debug\Microsoft.WindowsAPICodePack.xml
 C:\Users\parke\Desktop\2022 VS Projects\BunifulInstall\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
-C:\Users\parke\Desktop\2022 VS Projects\BunifulInstall\obj\Debug\BunifulInstall.Forms.BrowseMods.resources
 C:\Users\parke\Desktop\2022 VS Projects\BunifulInstall\bin\Debug\EO.Base.dll
 C:\Users\parke\Desktop\2022 VS Projects\BunifulInstall\bin\Debug\EO.WebBrowser.dll
 C:\Users\parke\Desktop\2022 VS Projects\BunifulInstall\bin\Debug\EO.WebEngine.dll

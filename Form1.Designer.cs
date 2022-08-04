@@ -49,7 +49,6 @@ namespace BunifulInstall
             this.installedMods1 = new BunifulInstall.Forms.InstalledMods();
             this.installedMods2 = new BunifulInstall.Forms.InstalledMods();
             this.settings1 = new BunifulInstall.Forms.Settings();
-            this.browseMods1 = new BunifulInstall.Forms.BrowseMods();
             this.bunifuPanel1.SuspendLayout();
             this.pnlTop.SuspendLayout();
             this.SuspendLayout();
@@ -119,7 +118,7 @@ namespace BunifulInstall
             this.btnBrowseMods.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("btnBrowseMods.IdleIconLeftImage")));
             this.btnBrowseMods.IdleIconRightImage = null;
             this.btnBrowseMods.IndicateFocus = false;
-            this.btnBrowseMods.Location = new System.Drawing.Point(0, 139);
+            this.btnBrowseMods.Location = new System.Drawing.Point(4, 637);
             this.btnBrowseMods.Name = "btnBrowseMods";
             this.btnBrowseMods.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnBrowseMods.OnDisabledState.BorderRadius = 1;
@@ -160,6 +159,7 @@ namespace BunifulInstall
             this.btnBrowseMods.TextMarginLeft = 0;
             this.btnBrowseMods.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnBrowseMods.UseDefaultRadiusAndThickness = true;
+            this.btnBrowseMods.Visible = false;
             this.btnBrowseMods.Click += new System.EventHandler(this.btnBrowseMods_Click);
             // 
             // btnSettings
@@ -209,7 +209,7 @@ namespace BunifulInstall
             this.btnSettings.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("btnSettings.IdleIconLeftImage")));
             this.btnSettings.IdleIconRightImage = null;
             this.btnSettings.IndicateFocus = false;
-            this.btnSettings.Location = new System.Drawing.Point(0, 197);
+            this.btnSettings.Location = new System.Drawing.Point(-1, 126);
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnSettings.OnDisabledState.BorderRadius = 1;
@@ -637,6 +637,7 @@ namespace BunifulInstall
             // 
             // installedMods1
             // 
+            this.installedMods1.AllowDrop = true;
             this.installedMods1.BackColor = System.Drawing.Color.Transparent;
             this.installedMods1.Location = new System.Drawing.Point(259, 33);
             this.installedMods1.Name = "installedMods1";
@@ -645,6 +646,7 @@ namespace BunifulInstall
             // 
             // installedMods2
             // 
+            this.installedMods2.AllowDrop = true;
             this.installedMods2.BackColor = System.Drawing.Color.Transparent;
             this.installedMods2.Location = new System.Drawing.Point(259, 30);
             this.installedMods2.Name = "installedMods2";
@@ -659,14 +661,6 @@ namespace BunifulInstall
             this.settings1.Size = new System.Drawing.Size(823, 641);
             this.settings1.TabIndex = 6;
             // 
-            // browseMods1
-            // 
-            this.browseMods1.BackColor = System.Drawing.Color.Transparent;
-            this.browseMods1.Location = new System.Drawing.Point(259, 33);
-            this.browseMods1.Name = "browseMods1";
-            this.browseMods1.Size = new System.Drawing.Size(823, 641);
-            this.browseMods1.TabIndex = 7;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -678,11 +672,11 @@ namespace BunifulInstall
             this.Controls.Add(this.pnlTop);
             this.Controls.Add(this.installedMods2);
             this.Controls.Add(this.settings1);
-            this.Controls.Add(this.browseMods1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MultiVersus Mod Manager";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.bunifuPanel1.ResumeLayout(false);
             this.pnlTop.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -703,7 +697,6 @@ namespace BunifulInstall
         private Forms.InstalledMods installedMods1;
         private Forms.InstalledMods installedMods2;
         private Forms.Settings settings1;
-        private Forms.BrowseMods browseMods1;
     }
 }
 
