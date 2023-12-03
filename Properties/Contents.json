@@ -1,6 +1,9 @@
 {
     "Loader": {
-    "status": "Up"
+    "status": "Up",
+    "updateAvailable": "No",
+    "buildVersion": "1.0.0",
+    "downloadLink": ""
     },
 
     "CS2"   : {
