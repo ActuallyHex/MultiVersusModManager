@@ -30,5 +30,12 @@
       "downloadLink": "",
       "buildVersion": "1.0.0"
     }
+
+    "TF2" : {
+      "status": "Working",
+      "vacStatus": "Undetected",
+      "downloadLink": "",
+      "buildVersion": "1.0.0"
+    }
 }
 
