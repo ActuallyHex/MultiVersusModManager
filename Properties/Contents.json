@@ -1,4 +1,34 @@
 {
-  "downloadlink": "",
-  "status": "Up",
+    "Loader": {
+    "status": "Up"
+    },
+
+    "CS2"   : {
+    "status": "Working",
+    "vacStatus": "Undetected",
+    "downloadLink": "",
+    "buildVersion": "1.0.0"
+    },
+
+    "CSGO" : {
+      "status": "Working",
+      "vacStatus": "Undetected",
+      "downloadLink": "",
+      "buildVersion": "1.0.0"
+    },
+
+    "GMOD" : {
+      "status": "Working",
+      "vacStatus": "Undetected",
+      "downloadLink": "",
+      "buildVersion": "1.0.0"
+    },
+
+    "L4D2" : {
+      "status": "Working",
+      "vacStatus": "Undetected",
+      "downloadLink": "",
+      "buildVersion": "1.0.0"
+    }
 }
+
