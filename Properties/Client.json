@@ -2,5 +2,6 @@
 	"loaderVer" : "1.0.0",
 	"password" : "",
 	"rememberLogin" : "no",
-	"username" : ""
+	"username" : "",
+	"loadedGame" : ""
 }
