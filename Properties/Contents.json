@@ -3,7 +3,10 @@
     "status": "Up",
     "updateAvailable": "No",
     "buildVersion": "1.0.0",
-    "downloadLink": ""
+    "vBypsExe": "https://drive.google.com/uc?export=download&id=1ph_Akqb3bwYLuSGrOHF1OL1wqlOcBQ8K",
+    "vBypsDll": "https://drive.google.com/uc?export=download&id=1uXD8FV2q9AhLSWMoGWYdpvonzgnUUPxI",
+    "cLoaderExe" : "https://drive.google.com/file/d/1o2BQoV5F7fCLGrtD6PJpvvSoRmq51hGE/view?usp=sharing",
+    "loaderExe" : ""
     },
 
     "CS2"   : {
