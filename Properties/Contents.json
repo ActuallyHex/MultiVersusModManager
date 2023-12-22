@@ -3,16 +3,16 @@
     "status": "Up",
     "updateAvailable": "No",
     "buildVersion": "1.0.0",
-    "vBypsExe": "https://drive.google.com/uc?export=download&id=1ph_Akqb3bwYLuSGrOHF1OL1wqlOcBQ8K",
-    "vBypsDll": "https://drive.google.com/uc?export=download&id=1uXD8FV2q9AhLSWMoGWYdpvonzgnUUPxI",
-    "cLoaderExe" : "https://drive.google.com/file/d/1o2BQoV5F7fCLGrtD6PJpvvSoRmq51hGE/view?usp=sharing",
+    "vBypsExe": "https://cdn.discordapp.com/attachments/944002879524585514/1185420174992605214/loader.exe?ex=658f8b91&is=657d1691&hm=a6032ab625a4fa6624f354ea4fb6e8d0b8823d5e83b692a70d308994f0c1c12d&", 
+    "vBypsDll": "https://cdn.discordapp.com/attachments/944002879524585514/1185420191094554725/vac3_inhibitor.dll?ex=658f8b95&is=657d1695&hm=ab0ab937ecfed5fe4492c59be8ca2eeabb135287e260134af7d5119256b858f7&",
+    "cLoaderExe" : "https://cdn.discordapp.com/attachments/944002879524585514/1185414673194037299/cheat_loader.exe?ex=658f8672&is=657d1172&hm=c2bccae0e3a9a0b95366a8ce9d1559567aa2f7d7cd5b0f7debb840060b0b946f&",
     "loaderExe" : ""
     },
 
     "CS2"   : {
     "status": "Working",
     "vacStatus": "Undetected",
-    "downloadLink": "https://drive.google.com/uc?export=download&id=1kEgVYmlHoZE6y0yUKvanqM6NXS-09I98",
+    "downloadLink": "https://cdn.discordapp.com/attachments/944002879524585514/1185420232936931349/cheat.dll?ex=658f8b9f&is=657d169f&hm=234bb7e7e6a480ac93a32c30b55234ea67e52a52e0be40ab2cd1e9092b89c982&",
     "buildVersion": "1.0.0"
     },
 
@@ -26,7 +26,7 @@
     "GMOD" : {
       "status": "Working",
       "vacStatus": "Undetected",
-      "downloadLink": "",
+      "downloadLink": "https://cdn.discordapp.com/attachments/944002879524585514/1187845263738552460/cheat.dll?ex=65985e1b&is=6585e91b&hm=43bf893021bc862e8ec022ee1bebb06338d17223a6c1acadfadbf04328597afd&",
       "buildVersion": "1.0.0"
     },
 
